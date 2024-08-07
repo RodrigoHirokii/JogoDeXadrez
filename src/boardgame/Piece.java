@@ -5,6 +5,10 @@ public class Piece {
 	// É uma posição simples de matriz, não queremos que ela seja visivel na camada
 	// de xadrez
 
+	
+	// OBS: Não colocamos os getters e setters da posição (peça) recém criada
+	// pois a peça não foi colocada no tabuleiro ainda
+	
 	protected Position position;
 	private Board board;
 
